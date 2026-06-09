@@ -2,7 +2,7 @@
 
 Este repositorio contiene el sitio estático de documentos legales de OwenZrk Studio para sus apps Android.
 
-El sitio inicial aloja la política de privacidad de Randomiza Fácil y está preparado para publicarse con GitHub Pages sin frameworks, npm, dependencias, JavaScript, tracking ni recursos externos.
+El sitio aloja políticas de privacidad de apps Android de OwenZrk Studio y está preparado para publicarse con GitHub Pages sin frameworks, npm, dependencias, JavaScript, tracking ni recursos externos.
 
 ## Estructura del proyecto
 
@@ -11,6 +11,8 @@ owenzrk-legal/
 ├─ index.html
 ├─ README.md
 ├─ .nojekyll
+├─ ahorro-facil/
+│  └─ privacy-policy.html
 └─ randomiza-facil/
    └─ privacy-policy.html
 ```
@@ -19,6 +21,7 @@ owenzrk-legal/
 
 ```text
 https://TU_USUARIO.github.io/owenzrk-legal/randomiza-facil/privacy-policy.html
+https://TU_USUARIO.github.io/owenzrk-legal/ahorro-facil/privacy-policy.html
 ```
 
 Reemplaza `TU_USUARIO` por tu usuario real de GitHub.
