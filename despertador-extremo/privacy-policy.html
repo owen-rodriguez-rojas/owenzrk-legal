@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pol&iacute;tica de privacidad - Despertador Extremo</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f6f8fb;
+      --surface: #ffffff;
+      --text: #1d2430;
+      --muted: #5f6b7a;
+      --border: #dfe5ee;
+      --accent: #2563eb;
+      --accent-dark: #1d4ed8;
+      --shadow: 0 14px 36px rgba(21, 35, 54, 0.08);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.68;
+    }
+
+    a {
+      color: var(--accent-dark);
+      font-weight: 700;
+    }
+
+    .page {
+      width: min(100% - 32px, 900px);
+      margin: 0 auto;
+      padding: 40px 0 56px;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-bottom: 22px;
+      text-decoration: none;
+    }
+
+    .back-link:hover,
+    .back-link:focus-visible {
+      text-decoration: underline;
+    }
+
+    header,
+    section {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+    }
+
+    header {
+      padding: 34px;
+      margin-bottom: 22px;
+    }
+
+    .eyebrow {
+      margin: 0 0 10px;
+      color: var(--accent-dark);
+      font-size: 0.86rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(1.9rem, 5vw, 3rem);
+      line-height: 1.14;
+      letter-spacing: 0;
+    }
+
+    .subtitle {
+      max-width: 720px;
+      margin: 16px 0 0;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+
+    main {
+      display: grid;
+      gap: 18px;
+    }
+
+    section {
+      padding: 28px 32px;
+    }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: 1.35rem;
+      line-height: 1.25;
+      letter-spacing: 0;
+    }
+
+    p { margin: 0 0 14px; }
+
+    ul {
+      margin: 0 0 14px 1.2rem;
+      padding: 0;
+    }
+
+    li { margin: 6px 0; }
+
+    footer {
+      margin-top: 28px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 560px) {
+      .page {
+        width: min(100% - 24px, 900px);
+        padding: 28px 0 42px;
+      }
+
+      header,
+      section {
+        padding: 22px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <a class="back-link" href="../index.html">Volver a OwenZrk Studio Legal</a>
+
+    <header>
+      <p class="eyebrow">OwenZrk Studio</p>
+      <h1>Pol&iacute;tica de privacidad de Despertador Extremo</h1>
+      <p class="subtitle">Esta pol&iacute;tica aplica a la app <strong>Despertador Extremo</strong>, publicada en Google Play como <strong>Despertador Extremo: Alarma</strong>.</p>
+    </header>
+
+    <main>
+      <section>
+        <h2>Resumen</h2>
+        <p><strong>Despertador Extremo</strong> es una app de alarma desarrollada por <strong>OwenZrk Studio</strong>. La app funciona localmente en el dispositivo y no requiere cuenta, login ni registro.</p>
+        <p>La app no usa backend, Firebase, AdMob, anuncios, analytics ni permiso de Internet. No vende, comparte ni transfiere datos personales.</p>
+      </section>
+
+      <section>
+        <h2>Datos locales</h2>
+        <p>La app guarda datos localmente en el dispositivo para poder funcionar como despertador:</p>
+        <ul>
+          <li>Alarmas creadas.</li>
+          <li>Etiquetas de alarmas.</li>
+          <li>D&iacute;as de repetici&oacute;n.</li>
+          <li>Preferencias.</li>
+          <li>Configuraci&oacute;n de vibraci&oacute;n.</li>
+          <li>Minutos de posponer.</li>
+          <li>PIN de 4 d&iacute;gitos.</li>
+        </ul>
+        <p>Estos datos no se env&iacute;an a servidores de OwenZrk Studio ni a terceros.</p>
+      </section>
+
+      <section>
+        <h2>Uso del PIN</h2>
+        <p>El PIN de 4 d&iacute;gitos se guarda localmente en el dispositivo. No es un PIN bancario, no protege informaci&oacute;n financiera y no debe usarse como contrase&ntilde;a de seguridad personal.</p>
+        <p>Su &uacute;nica finalidad dentro de la app es servir como barrera para evitar detener o posponer una alarma sin estar consciente.</p>
+      </section>
+
+      <section>
+        <h2>Backup y restauraci&oacute;n</h2>
+        <p>La app tiene el backup autom&aacute;tico desactivado. Esto ayuda a evitar restaurar alarmas o el PIN en otro dispositivo, lo que podr&iacute;a generar estados inconsistentes con las alarmas reales programadas por Android.</p>
+      </section>
+
+      <section>
+        <h2>Permisos usados</h2>
+        <p>La app usa permisos relacionados con su funci&oacute;n principal de alarma:</p>
+        <ul>
+          <li>Notificaciones: para avisar cuando una alarma est&aacute; sonando.</li>
+          <li>Alarmas exactas: para sonar a la hora configurada.</li>
+          <li>Pantalla completa: para mostrar la pantalla de PIN cuando una alarma suena.</li>
+          <li>Foreground service/media playback: para reproducir el sonido de alarma.</li>
+          <li>Vibraci&oacute;n: para vibrar si el usuario lo activa.</li>
+          <li>Reinicio del dispositivo: para reprogramar alarmas activas despu&eacute;s de reiniciar.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Permisos no solicitados</h2>
+        <p>La app no solicita c&aacute;mara, ubicaci&oacute;n, contactos, almacenamiento, micr&oacute;fono ni Internet.</p>
+      </section>
+
+      <section>
+        <h2>Control del usuario</h2>
+        <p>El usuario puede eliminar alarmas desde la app. Tambi&eacute;n puede restablecer el PIN desde Ajustes.</p>
+        <p>El usuario puede eliminar todos los datos locales desinstalando la app o borrando su almacenamiento desde los ajustes de Android.</p>
+      </section>
+
+      <section>
+        <h2>Cambios a esta pol&iacute;tica</h2>
+        <p>Si en el futuro la app agrega anuncios, analytics, backend, cuenta de usuario o cualquier forma de recopilaci&oacute;n externa, esta pol&iacute;tica se actualizar&aacute; antes de publicar esos cambios.</p>
+      </section>
+
+      <section>
+        <h2>Contacto</h2>
+        <p>Soporte: soporte pendiente.</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 OwenZrk Studio. Pol&iacute;tica de privacidad para Despertador Extremo.</p>
+    </footer>
+  </div>
+</body>
+</html>
